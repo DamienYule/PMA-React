@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+/*-----------Language----------*/
+.spanish{
+  display: none;
+}
+.english{
+  display:block;
+}
+/*-----------Language----------*/
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: times;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    padding: 15px;
+
+}
+.row {
+    max-width: 1140px;
+    margin:0 auto;
+}
+.section-features{
+    padding: 80px 0;
+}
+.clearfix { zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
